@@ -1,0 +1,18 @@
+# Secrets: the real .env stays local. Only a placeholder example is committed.
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / frontend build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# OS and logs
+.DS_Store
+*.log
